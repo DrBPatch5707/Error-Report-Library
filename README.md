@@ -6,6 +6,4 @@ This library aims to provide consistent documentation for errors through out a p
 
 
 
-## Documentation
-
 [Documentation](https://drbpatch5707.github.io/Error-Report-Library/)
