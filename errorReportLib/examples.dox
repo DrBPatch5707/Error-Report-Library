@@ -1,0 +1,65 @@
+/**
+*@file examples.dox
+*@page examples
+*
+*example CmakeLists.txt
+*@code 
+*   cmake_minimum_required(VERSION 3.10.0)
+*   project(testingProject VERSION 0.1.0 LANGUAGES C CXX)
+*
+*   include(errorReportLib/CMakeLists.txt)
+*
+*   add_executable(mainTesting example/testMain.cpp)
+*   target_link_libraries(mainTesting PRIVATE errorReport) 
+*   target_include_directories(mainTesting PRIVATE errorReportLib)
+*@endcode
+*example code
+*@code
+*   #include <iostream>
+*   #include <errorReport.hpp>
+*   using namespace std;
+*   int main()
+*   {
+*   err::errorReport testobj;
+*   testobj.setErrorFile("../example/testErrorFile.txt", true);
+*   testobj.setError("1a");
+*   testobj.setError("2b");
+*   testobj.writeErrors();
+*   testobj.setError("3c");
+*   testobj.setError("4d");
+*   testobj.setError("5z");
+*   testobj.printErrors();
+*   testobj.writeErrors();
+*       return 0;
+*   }
+*@endcode
+*
+*   **Output of example to file**
+*
+*Initialized error report...
+*
+*error: 2b...
+*
+*error: 1a...
+*
+*error: 5z...
+*
+*error: 4d...
+*
+*error: 3c...
+*
+*   **To console**
+*
+*Initialized error report...
+*
+*error: 1a...
+*
+*error: 2b...
+*
+*error: 3c...
+*
+*error: 4d...
+*
+*error: 5z...
+*
+*/
