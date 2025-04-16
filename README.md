@@ -13,3 +13,9 @@ The purpous of this library is to provide consistent documentation for errors th
 <br>
 <br>
 [documentation for the library](https://drbpatch5707.github.io/Error-Report-Library/)
+<br>
+<br>
+<br>
+<div align="center">
+  I will try to update the library whenever I have any improvements.
+</div>
