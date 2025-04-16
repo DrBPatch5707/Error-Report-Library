@@ -16,6 +16,7 @@ The purpous of this library is to provide consistent documentation for errors th
 [documentation for the library](https://drbpatch5707.github.io/Error-Report-Library/)
 <br>
 <br>
+Both CMakeLists.txt files my need to be updated depending on the relitive paths of your files
 <br>
 
   I will try to update the library whenever I have any improvements.
