@@ -1,5 +1,5 @@
 <div align="center">
- – This is my FIRST library –
+<strong><u>-This is my FIRST library-</u></strong>
 
 I know that this is nothing special, but I feel that this is a good first library.
 
