@@ -1,4 +1,5 @@
-							– This is my FIRST library –
+<div align="center">
+ – This is my FIRST library –
 
 I know that this is nothing special, but I feel that this is a good first library.
 
@@ -16,6 +17,6 @@ The purpous of this library is to provide consistent documentation for errors th
 <br>
 <br>
 <br>
-<div align="center">
+
   I will try to update the library whenever I have any improvements.
 </div>
