@@ -38,5 +38,5 @@ Makefile
 *.sln
 *.vcxproj*
 
-mainpage.dox
-examples.dox
+errorReportLib/mainpage.dox
+errorReportLib/examples.dox
